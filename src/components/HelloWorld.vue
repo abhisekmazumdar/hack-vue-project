@@ -15,6 +15,10 @@ defineProps({
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
+    <div :style="{ 'background-color': 'black', 'padding': '1rem', 'display': 'flex', 'border-radius': '0.25rem', 'justify-content': 'center', 'align-items': 'center', 'margin-top': '1rem' }" >
+      <span :style="{ 'font-weight': 'bolder', 'color': 'white' }" >Powered by: </span>
+      <img alt="Vue logo" class="logo" src="../assets/pantheon.png" :style="{ 'display': 'inline-block;', 'height': '200', 'width': '100' }" />
+  </div>
   </div>
 </template>
 
